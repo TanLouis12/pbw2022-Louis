@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	* {
+	  box-sizing: border-box;
+	}
+
+	body {
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+
+	
+	header {
+	  background-color: rgb(57, 2, 102);
+	  padding: 30px;
+	  text-align: center;
+	  font-size: 35px;
+	  color: white;
+	}
+
+	
+	nav {
+	  float: left;
+	  width: 25%;
+	  background: #fff;
+	  padding: 20px;
+	}
+
+	
+	nav ul {
+	  list-style-type: none;
+	  padding: 0;
+	}
+
+	article {
+	  float: left;
+	  padding: 20px;
+	  width: 75%;
+	  background-color: #f1f1f1;
+	}
+
+	
+	section::after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	
+	footer {
+	  background-color: rgb(113, 7, 199);
+	  padding: 10px;
+	  text-align: center;
+	  color: white;
+	}
+
+	
+	@media (max-width: 600px) {
+	  nav, article {
+		width: 100%;
+		height: auto;
+	  }
+	}
+	</style>
+</head>
+	<body>
+		<header>
+		  <h1>Belajar Buat Web Sederhana</h1>
+		</header>
+
+		<section>
+			<h2>
+		  <nav>
+			<ul>
+			  <li><a href="web 1 minggu6.html">Home</a></li>	
+			  <li><a href="CURRICULUMVITAE.pdf">Download CV</a></li>   
+			  <li><a href="web 2 minggu6.html">Contact</a></li>
+			  <li><a href="web 3 minggu6.html">About Me</a></li>
+			  <li><a href="minggu6.html">HTML Information </a></li>
+			</ul>
+		  </nav>
+			</h2>
+		  <article>
+			<h2>Belajar Buat Web</h2>
+			<p>Membuat web itu bukanlah hal yang mudah banyak sekali yang harus kita mengerti untuk bisa membuat dan meluncurkan sebuah web.</p>
+			<p>Dengan begitu saya ingin belajar membuat web sederhana tentang diri saya dan sedikit karya CV saya.</p>
+		  </article>
+	</section>
+
+		<footer>
+		  <p>Semoga Bermanfaat</p>
+		</footer>
+	</body>
+</html>
+
